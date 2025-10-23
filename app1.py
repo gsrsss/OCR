@@ -4,11 +4,7 @@ import numpy as np
 import pytesseract
 from PIL import Image
 
-# Configuración de la página (¡un buen detalle!)
 st.set_page_config(page_title="App OCR", page_icon="✨")
-
-# --- CSS para el fondo rosado de la cámara ---
-# Inyectamos CSS con st.markdown para estilizar el widget de la cámara
 st.markdown("""
 <style>
 /* Apuntamos al contenedor del widget de la cámara por su test-id */
@@ -30,7 +26,7 @@ st.write("¡Apunta tu cámara a un texto y mira la magia! ✨")
 
 # --- Barra lateral ---
 with st.sidebar:
-    st.header("Opciones (o^▽^o)")
+    st.header("Opciones")
     filtro = st.radio(
         "¿Aplicar Filtro?",
         ('Con Filtro (Invertir)', 'Sin Filtro'),

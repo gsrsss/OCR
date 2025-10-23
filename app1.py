@@ -5,7 +5,7 @@ import pytesseract
 from PIL import Image
 
 # Configuración de la página (¡un buen detalle!)
-st.set_page_config(page_title="App OCR 📸", page_icon="✨")
+st.set_page_config(page_title="App OCR", page_icon="✨")
 
 # --- CSS para el fondo rosado de la cámara ---
 # Inyectamos CSS con st.markdown para estilizar el widget de la cámara
@@ -24,7 +24,7 @@ st.markdown("""
 
 
 # --- Título con Kaomoji ---
-st.title("Reconocimiento óptico de Caracteres (๑˃̵ᴗ˂̵)و")
+st.title("Reconocimiento óptico de Caracteres (˶ˆᗜˆ˵)")
 st.write("¡Apunta tu cámara a un texto y mira la magia! ✨")
 
 
